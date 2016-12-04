@@ -27,6 +27,14 @@ snippet thm thm (or arbitrary) environment with optional argument
 	\begin[${1:author}]{${2:thm}}
 		${0:${VISUAL}}
 	\end{$2}
+snippet theorem theorem (or arbitrary) environment with optional argument
+	\begin{${1:thm}}[${2:thm name}]
+		${0:${VISUAL}}
+	\end{$1}
+snippet proof proof \begin{} ... \end{} block
+	\begin{proof}
+		${0:${VISUAL}}
+	\end{proof}
 snippet center center environment
 	\begin{center}
 		${0:${VISUAL}}
